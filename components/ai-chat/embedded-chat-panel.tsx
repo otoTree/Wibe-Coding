@@ -11,7 +11,7 @@ import { ChatMessage, ChatContextFragment } from '@/lib/ai-chat-types'
 import { Fragment } from '@/lib/types'
 import { DropZone } from './drop-zone'
 import { DraggableResizablePanel } from './draggable-resizable-panel'
-import { cn } from '@/lib/utils'
+import { cn } from '@/package/utils/utils'
 import { aiChatService } from '@/lib/ai-chat-service'
 
 interface EmbeddedChatPanelProps {

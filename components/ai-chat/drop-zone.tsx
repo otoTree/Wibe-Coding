@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from 'react'
 import { DropZoneProps } from '@/lib/ai-chat-types'
-import { cn } from '@/lib/utils'
+import { cn } from '@/package/utils/utils'
 
 export function DropZone({ onFragmentDrop, isActive, children }: DropZoneProps) {
   const [isDragOver, setIsDragOver] = useState(false)

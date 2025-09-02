@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Fragment } from '@/lib/types'
-import { cn } from '@/lib/utils'
+import { cn } from '@/package/utils/utils'
 
 interface DraggableFragmentProps {
   fragment: Fragment

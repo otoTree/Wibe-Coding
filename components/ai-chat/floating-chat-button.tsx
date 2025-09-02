@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { MessageCircle } from 'lucide-react'
 import { FloatingChatButtonProps } from '@/lib/ai-chat-types'
-import { cn } from '@/lib/utils'
+import { cn } from '@/package/utils/utils'
 
 export function FloatingChatButton({ 
   fragment, 

@@ -11,7 +11,7 @@ import { Send, X, Bot, User, FileText } from 'lucide-react'
 import { AIChatComponentProps, ChatMessage, ChatContextFragment } from '@/lib/ai-chat-types'
 import { Fragment } from '@/lib/types'
 import { DropZone } from './drop-zone'
-import { cn } from '@/lib/utils'
+import { cn } from '@/package/utils/utils'
 import { aiChatService } from '@/lib/ai-chat-service'
 
 export function AIChatDialog({ 
